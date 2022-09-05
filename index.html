@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Masyu SheCodes Basics Project</title>
+    <style>
+      body {
+        background: linear-gradient(
+          182deg,
+          rgb(255, 252, 245) 6%,
+          rgb(245, 242, 222) 97%
+        );
+        color: rgb(73, 73, 110);
+        font-family: Optima;
+        -webkit-text-stroke: 1px #000000;
+      }
+      a {
+        font-weight: bolder;
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+      button {
+        background: linear-gradient(
+          169deg,
+          rgb(73, 73, 107) 0%,
+          rgb(144, 157, 195) 97%
+        );
+        border: 1px solid rgb(73, 73, 110);
+        border-radius: 30px;
+        box-shadow: 3px 3px 5px rgb(73, 73, 110);
+        color: rgb(255, 252, 245);
+        display: block;
+        font-family: Optima;
+        font-size: 20px;
+        margin: 0 auto;
+        padding: 18px;
+        -webkit-text-stroke: 0px;
+      }
+      button:hover {
+        background: rgb(245, 242, 222);
+        color: rgb(73, 73, 110);
+        cursor: pointer;
+      }
+
+      h1,
+      h2,
+      h3,
+      h4,
+      h5 {
+        text-align: center;
+      }
+
+      h1 {
+        font-size: 55px;
+        margin: 30px 0px 15px 0px;
+      }
+
+      h2 {
+        font-size: 30px;
+        margin: 10px 0px;
+      }
+
+      h3,
+      h4 {
+        font-size: 20px;
+      }
+
+      h5 {
+        font-size: 15px;
+        font-weight: lighter;
+      }
+
+      img {
+        border: 1px solid rgb(73, 73, 110);
+        border-radius: 10px;
+        box-shadow: 2px 3px 4px rgb(73, 73, 110);
+        height: auto;
+        width: 20%;
+        min-width: 115px;
+        min-height: 190px;
+      }
+
+      ul {
+        line-height: 1.5;
+      }
+      .all-content {
+        background: linear-gradient(
+          360deg,
+          rgb(255, 252, 245) 6%,
+          rgb(245, 242, 222) 97%
+        );
+        border-radius: 30px;
+        box-shadow: 1px 1px 2px rgb(73, 73, 110);
+        margin: 0 auto;
+        max-width: 780px;
+        padding: 10px 30px;
+      }
+      .about-masyu {
+        line-height: 1.5;
+        text-align: justify;
+      }
+      .caption {
+        border-radius: 10px;
+        color: rgb(73, 73, 110);
+        font-size: 17px;
+        font-weight: 300px;
+
+        padding: 15px 0px 0px 0px;
+        text-align: center;
+      }
+      .caption-pearls {
+        -webkit-text-fill-color: #ffffff;
+      }
+      .caption-necklace {
+        -webkit-text-fill-color: #2ee42f;
+      }
+      .get-started {
+        text-align: justify;
+      }
+      .new-footer {
+        color: #2ee42f;
+        font-size: 24px;
+        font-weight: bolder;
+        text-align: center;
+      }
+
+      .solving-masyu {
+        padding: 10px;
+        text-align: center;
+      }
+      @media only screen and (max-width: 280px) {
+        img {
+          min-width: 105px;
+        }
+      }
+      @media only screen and (max-width: 576px) {
+        .all-content {
+          padding: 10px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="all-content">
+      <h1>Masyu</h1>
+      <h2>A Beautiful Logic Puzzle</h2>
+      <div class="solving-masyu">
+        <img src="assets/Masyu1-small.PNG" alt="Masyu Unsolved" />
+        <img src="assets/Masyu2-small.PNG" alt="Solving a Masyu Part 1" />
+        <img src="assets/Masyu3-small.PNG" alt="Solving a Masyu Part 2" />
+        <img src="assets/Masyu4-small.PNG" alt="Masyu Solved" />
+        <div class="caption">
+          (Left to right) Solving a Masyu, from
+          <span class="caption-pearls">scattered pearls</span> to
+          <span class="caption-necklace">completed necklace</span>
+        </div>
+      </div>
+      <hr />
+      <div class="about-masyu">
+        <h3>Learn about Masyu, How to Play, and More</h3>
+        <p>
+          Originally named Shinju no Kubikazari ("pearl necklace") or
+          Shiroshinju Kuroshinju ("white pearls and black pearls"), Masyu is a
+          logic puzzle designed by the Japanese company Nikoli. When reviewing
+          the puzzle, Nikoli's president reputedly misread the kanji for
+          "shinju"; consequently, the misnomer "Masyu," which means "evil
+          influence," stuck as a joke. According to
+          <a
+            href="https://en.wikipedia.org/wiki/Masyu"
+            target="_blank"
+            title="To Masyu on Wikipedia"
+          >
+            Wikipedia</a
+          >, "The purpose of [Masyu's] creation was to present a puzzle that
+          uses no numbers or letters and yet retains depth and aesthetics."
+          Deceptive in its simplicity, the clean design features black and white
+          circles distributed across a grid of variable proportions. The circles
+          symbolically represent black and white pearls, which are assigned
+          discrete behaviors that the solver must respect. The object of this
+          puzzle is to string together all the black and white pearls to form
+          one continuous necklace that never folds over itself.
+        </p>
+        <p>
+          In addition to this rule forbidding intersecting loops, the other
+          rules specify how the different beads affect the course of the string.
+          To incorporate a white pearl, the string must pass <em>through</em> it
+          and turn in the next cell on either end. (It may turn in the next cell
+          on both ends, but it is only required to turn at least once.) To
+          incorporate a black pearl, the string must <em>turn inside</em> it (a
+          ninety-degree turn) and continue for one cell on both ends. Please
+          consult
+          <a
+            href="https://ktane.timwi.de/HTML/Masyu.html"
+            target="_blank"
+            title="To On the Subject of Masyu pamphlet"
+          >
+            this pamphlet</a
+          >
+          for a few tips and to see more vividly what is and is not allowed. As
+          you draw lines on the grid to form the necklace, you will quickly see
+          how these rules logically affect the progression from scattered pieces
+          to harmonious unity.
+        </p>
+        <p>
+          Far from exerting an "evil influence," Masyu puzzles promote clarity
+          of mind and teach us to savor our simplest endeavors. Solve a Masyu
+          over morning coffee or anytime you need a breather, and invite the
+          soothing effects of beauty, logic, and intellectual challenge into
+          your daily life. Over time, you may find that these deliberate moments
+          of calm but alert contemplation have helped you develop a more relaxed
+          attitude toward life's larger challenges and a subtler appreciation
+          for the beauty in their resolution.
+        </p>
+        <hr />
+      </div>
+      <h4>Get started today!</h4>
+      <div class="get-started">
+        <p>Solve infinite puzzles online:</p>
+        <ul>
+          <li>
+            <a
+              href="https://www.kakuro-online.com/masyu/"
+              target="_blank"
+              title="To https://www.kakuro-online.com/masyu/"
+            >
+              Masyu Solver and Generator
+            </a>
+            — Play with the settings to generate new puzzles.
+          </li>
+          <li>
+            <a
+              href="https://www.puzzle-masyu.com/"
+              target="_blank"
+              title="To https://www.puzzle-masyu.com/"
+            >
+              Masyu Timed Puzzles
+            </a>
+            — See the left sidebar to select a new size or difficulty.
+          </li>
+        </ul>
+        <p>
+          Or purchase this app on your phone for $0.99 to carry Masyu with you
+          wherever you go (I use this one!):
+        </p>
+        <ul>
+          <li>
+            <a
+              href="https://apps.apple.com/us/app/masyu-infinite/id1192493351"
+              target="_blank"
+              title="To Masyu Infinite by
+Thomas Reinke on Apple's App Store"
+              >Masyu Infinite</a
+            >
+          </li>
+        </ul>
+      </div>
+      <br />
+      <br />
+      <button type="button">
+        <strong>Sign Up for Daily Challenge!</strong>
+      </button>
+      <div class="new-footer">
+        <br />
+        <br />
+        <br />
+      </div>
+      <hr />
+      <h5>Images, text, & code by Addy López</h5>
+      <script>
+        function signUp() {
+          let name = prompt("What is your name?");
+          let subscribe = prompt(
+            "Hi, " +
+              name +
+              ", would you like to sign up for the Masyu Daily Challenge? 🧩 💡"
+          );
+          subscribe = subscribe.toUpperCase();
+          subscribe = subscribe.trim();
+          let surpriseFooter = document.querySelector(".new-footer");
+          if (
+            subscribe === "YES" ||
+            subscribe === "YEAH" ||
+            subscribe === "SURE" ||
+            subscribe === "YEP" ||
+            subscribe === "DEFINITELY" ||
+            subscribe === "TOTALLY" ||
+            subscribe === "HELL YES" ||
+            subscribe === "HELL YEAH"
+          ) {
+            let email = prompt("Great! 🤓 What is your email address?");
+            alert(
+              "Thank you for your interest, " +
+                name +
+                "! ⚫️ ⚪️ Check your inbox soon to solve your first Masyu Daily Challenge! 🎉"
+            );
+            surpriseFooter.innerHTML =
+              "<br />⚫️ Sign-up successful! Good luck, " + name + "! ⚪️";
+          } else {
+            alert("☹️ Come back if you change your mind!");
+          }
+        }
+        let signUpButton = document.querySelector("button");
+        signUpButton.addEventListener("click", signUp);
+      </script>
+    </div>
+  </body>
+</html>
