@@ -13,7 +13,7 @@
           rgb(245, 242, 222) 97%
         );
         color: rgb(73, 73, 110);
-        font-family: Optima;
+        font-family: Optima, sans-serif;
         -webkit-text-stroke: 1px #000000;
       }
       a {
@@ -108,7 +108,6 @@
         color: rgb(73, 73, 110);
         font-size: 17px;
         font-weight: 300px;
-
         padding: 15px 0px 0px 0px;
         text-align: center;
       }
@@ -270,42 +269,41 @@ Thomas Reinke on Apple's App Store"
       </div>
       <hr />
       <h5>Images, text, & code by Addy López</h5>
-      <script>
-        function signUp() {
-          let name = prompt("What is your name?");
-          let subscribe = prompt(
-            "Hi, " +
-              name +
-              ", would you like to sign up for the Masyu Daily Challenge? 🧩 💡"
-          );
-          subscribe = subscribe.toUpperCase();
-          subscribe = subscribe.trim();
-          let surpriseFooter = document.querySelector(".new-footer");
-          if (
-            subscribe === "YES" ||
-            subscribe === "YEAH" ||
-            subscribe === "SURE" ||
-            subscribe === "YEP" ||
-            subscribe === "DEFINITELY" ||
-            subscribe === "TOTALLY" ||
-            subscribe === "HELL YES" ||
-            subscribe === "HELL YEAH"
-          ) {
-            let email = prompt("Great! 🤓 What is your email address?");
-            alert(
-              "Thank you for your interest, " +
-                name +
-                "! ⚫️ ⚪️ Check your inbox soon to solve your first Masyu Daily Challenge! 🎉"
-            );
-            surpriseFooter.innerHTML =
-              "<br />⚫️ Sign-up successful! Good luck, " + name + "! ⚪️";
-          } else {
-            alert("☹️ Come back if you change your mind!");
-          }
-        }
-        let signUpButton = document.querySelector("button");
-        signUpButton.addEventListener("click", signUp);
-      </script>
     </div>
+    <script>
+      function signUp() {
+        let name = prompt("What is your name?");
+        let subscribe = prompt(
+          "Hi, " +
+            name +
+            ", would you like to sign up for the Masyu Daily Challenge? 🧩 💡"
+        );
+        subscribe = subscribe.toUpperCase().trim();
+        let surpriseFooter = document.querySelector(".new-footer");
+        if (
+          subscribe === "YES" ||
+          subscribe === "YEAH" ||
+          subscribe === "SURE" ||
+          subscribe === "YEP" ||
+          subscribe === "DEFINITELY" ||
+          subscribe === "TOTALLY" ||
+          subscribe === "HELL YES" ||
+          subscribe === "HELL YEAH"
+        ) {
+          let email = prompt("Great! 🤓 What is your email address?");
+          alert(
+            "Thank you for your interest, " +
+              name +
+              "! ⚫️ ⚪️ Check your inbox soon to solve your first Masyu Daily Challenge! 🎉"
+          );
+          surpriseFooter.innerHTML =
+            "<br />⚫️ Sign-up successful! Good luck, " + name + "! ⚪️";
+        } else {
+          alert("☹️ Come back if you change your mind!");
+        }
+      }
+      let signUpButton = document.querySelector("button");
+      signUpButton.addEventListener("click", signUp);
+    </script>
   </body>
 </html>
