@@ -33,7 +33,7 @@ Submitted as my final student project for SheCodes Basics coding workshop, this 
 ---
 
 - Coded in VS Code with hosting on Netlify
-- Includes a polished README using Markdown
+- Includes this polished README using Markdown
 
 ## Content & Design Features
 
@@ -41,7 +41,7 @@ Submitted as my final student project for SheCodes Basics coding workshop, this 
 
 - All images are original screenshots that illustrate the solving of the puzzle by me
 
-- Original design with a card-like appearance and complementary, reversed color gradients for the background of the web page and the inset application
+- Original design with a card-like appearance, tasteful font (with a fallback font), and complementary, reversed color gradients for the background of the web page and the inset application. Wedding of form and content: the minimalist aesthetic of the app complements the minimalist aesthetic principles of the puzzles.
 
 - Sign-up newsletter function accepts a range of inputs from the user across the spectrum of enthusiasm, including the inputs "yes," "yeah," "sure," "yep," "definitely," "totally," "hell yes," and "hell yeah," accounting for blank space (with the .trim() method) and for uppercase or lowercase letters
 
@@ -49,6 +49,8 @@ Submitted as my final student project for SheCodes Basics coding workshop, this 
 
 ## Preview
 
+![Masyu Application Preview](assets/preview/addylopez-shecodes-basics-masyu-project-preview.png)
+
 ## Attributions
 
-**_For comparison:_** Design inspired by the SheCodes Basics demo:
+**_For comparison:_** Design inspired by the SheCodes Basics demo:[https://www.shecodes.io/demos/project](https://www.shecodes.io/demos/project)
