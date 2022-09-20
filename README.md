@@ -24,7 +24,7 @@ Submitted as my final student project for SheCodes Basics coding workshop, this 
 
 ---
 
-- Interactive sign-up button programmed with JavaScript, with a secret surprise footer using the .innerHTML method and appearing after completion of sign-up steps
+- Interactive sign-up button programmed with JavaScript, with a secret surprise footer using the .innerHTML method, along with data entered by the user, and appearing after the completion of sign-up steps
 - JavaScript function, variables, conditional statement (if/else), query selector, event listener with click event, prompt, alert, string concatenation, .innerHTML() method, .toUpperCase() method, .trim() method, identity operator, logical operators (and emojis!)
 - Global and block scope
 - Clear, descriptive names
@@ -32,6 +32,7 @@ Submitted as my final student project for SheCodes Basics coding workshop, this 
 
 ---
 
+- Accessibility rating by Lighthouse audit: 100/100 for desktop and 100/100 for mobile devices
 - Coded in VS Code with hosting on Netlify
 - Includes this polished README using Markdown
 
