@@ -50,7 +50,7 @@ Submitted as my final student project for SheCodes Basics coding workshop, this 
 
 ## Preview
 
-![Masyu Application Preview](assets/preview/addylopez-shecodes-basics-masyu-project-preview.png)
+![Masyu Application Preview](assets/preview/masyu-application-preview.png)
 
 ## Attributions
 
