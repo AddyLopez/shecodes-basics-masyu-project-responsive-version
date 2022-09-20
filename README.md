@@ -4,7 +4,7 @@
 
 ## Description
 
-A minimally altered, responsive version of my Masyu app for display on my responsive coding portfolio website. The application is an interactive landing page for Masyu puzzles, built with HTML, CSS, and JavaScript. Click the button at the bottom to sign up for the fictional Masyu Daily Challenge!
+A minimally altered, responsive version of my Masyu app for display on my responsive coding portfolio website. The application is an interactive landing page for Masyu puzzles, built with HTML, CSS, and JavaScript. Click the button at the bottom to sign up for the fictitious Masyu Daily Challenge!
 
 Submitted as my final student project for SheCodes Basics coding workshop, this application was coded in my third week of learning how to code, with zero prior knowledge!
 
