@@ -15,12 +15,16 @@ Submitted as my final student project for SheCodes Basics coding workshop, this 
 - HTML elements: h1, h2, h3, h4, h5, p, ul, li, a, img, button, div, span, hr, br, strong, em, title, style, script
 - HTML attributes: class, href, target, title, src, alt
 
+---
+
 #### CSS
 
 - CSS properties: background (with linear gradient), border, border-radius, box-shadow, color, cursor, display, font-family, font-weight, font-size, line-height, margin, max-width, min-width, min-height padding, text-align, text-decoration, width
 - CSS class selectors
 - CSS pseudo-selector (hover)
 - Fully responsive styling for devices of all sizes
+
+---
 
 #### JavaScript
 
@@ -30,11 +34,15 @@ Submitted as my final student project for SheCodes Basics coding workshop, this 
 - Clear, descriptive names
 - Debugging with console.log() method
 
+---
+
 #### Accessibility & Workflow Considerations
 
 - Accessibility rating by Lighthouse audit: 100/100 for desktop and 100/100 for mobile devices
 - Coded in VS Code with hosting on Netlify
 - Includes this polished README using Markdown
+
+---
 
 ## Content & Design Features
 
