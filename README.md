@@ -48,7 +48,7 @@ Submitted as my final student project for SheCodes Basics coding workshop, this 
 
 - All text is original and written by me
 
-- All images are original screenshots that illustrate the solving of the puzzle by me
+- All images are original screenshots that illustrate my solving of the puzzle
 
 - Original design with a card-like appearance, tasteful font (with a fallback font), and complementary, reversed color gradients for the background of the web page and the inset application. Wedding of form and content: the minimalist aesthetic of the app complements the minimalist aesthetic principles of the puzzles.
 
