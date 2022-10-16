@@ -10,19 +10,19 @@ Submitted as my final student project for SheCodes Basics coding workshop, this 
 
 ## Coding Features
 
-- Well-organized HTML
+#### HTML
+
 - HTML elements: h1, h2, h3, h4, h5, p, ul, li, a, img, button, div, span, hr, br, strong, em, title, style, script
 - HTML attributes: class, href, target, title, src, alt
 
----
+#### CSS
 
-- Well-organized CSS rule sets
 - CSS properties: background (with linear gradient), border, border-radius, box-shadow, color, cursor, display, font-family, font-weight, font-size, line-height, margin, max-width, min-width, min-height padding, text-align, text-decoration, width
 - CSS class selectors
 - CSS pseudo-selector (hover)
 - Fully responsive styling for devices of all sizes
 
----
+#### JavaScript
 
 - Interactive sign-up button programmed with JavaScript, with a secret surprise footer using the .innerHTML method, along with data entered by the user, and appearing after the completion of sign-up steps
 - JavaScript function, variables, conditional statement (if/else), query selector, event listener with click event, prompt, alert, string concatenation, .innerHTML() method, .toUpperCase() method, .trim() method, identity operator, logical operators (and emojis!)
@@ -30,7 +30,7 @@ Submitted as my final student project for SheCodes Basics coding workshop, this 
 - Clear, descriptive names
 - Debugging with console.log() method
 
----
+#### Accessibility & Workflow Considerations
 
 - Accessibility rating by Lighthouse audit: 100/100 for desktop and 100/100 for mobile devices
 - Coded in VS Code with hosting on Netlify
